@@ -1,7 +1,7 @@
 //make the function work
 
 var isCat = function(animal){
-  if (){
+  if (animal == "cat"){
     return true;
   } else {
     return false;

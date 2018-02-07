@@ -1,5 +1,8 @@
 //make the code work below by writing a function called "bananas" that accepts two integers and returns the sum of them. 
 
+function bananas(x, y) {
+    return x + y; 
+}
 console.log(bananas(3, 4));
 //7
 console.log(bananas(666, 777));
@@ -15,3 +18,8 @@ console.log(bananas(1,0));
 //should NOT be inside your function. Feel free to put console logs in there to test your code, but the final product should
 //lack any console logs inside the function you create.
 
+function oranges(str, int1, int2) {
+    return "Hello " + str + ", the product of your numbers is " + (int1 * int2) + ".";
+
+}
+console.log(oranges("Bryson", 7, 10));

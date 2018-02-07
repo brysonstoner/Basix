@@ -3,7 +3,15 @@
 //here's a function called countLetters
 
 var countLetters = function(word){
-  
+  console.log(word.length);
+  for (i = 0; i < word.length; i++) {
+    if (word[i] === word[i].toUpperCase()) {
+      console.log("We got a capital letter in this word, better get out the pitchforks because I hate capital letters and Mark is a moron who thinks he can get away with putting capital letters in words that my function has to deal with");
+
+    } else {
+      console.log("No Capitals");
+    }
+  }
   //write code inside these brackets that counts the number of letters in the word to make
   //the code below work
 }

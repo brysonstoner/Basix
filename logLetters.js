@@ -1,7 +1,12 @@
 
 //make the code work below by writing a function called logLetters that console logs each letter in the word "hogwaller"
-
-logLetters('hogwaller')
+function logLetters(x) {
+//    console.log(x[1]);
+//    for(var i = 0; i < x.length; i++) {
+//        console.log(x[i]);
+//    }
+}
+logLetters('hogwaller');
 
 //output - 
 //"h"
